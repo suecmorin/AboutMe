@@ -1,0 +1,39 @@
+/*reset.css/*
+*;
+*; before,
+*;after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height; 100%;
+    line-height:2;
+    font-family: sans-serif;
+}
+
+h2,
+h2,
+h3,
+h4,
+h5{
+    fpmt-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+
+}
+
+ol,
+ul {list-style: none;
+}

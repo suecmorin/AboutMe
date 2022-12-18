@@ -1,0 +1,129 @@
+body {
+font-family:  Helvetica, sans-serif;
+font-size: 1rem;
+}
+.avatar {
+    width: 64px;
+    height: 64px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 20px;
+    left: 80;
+}
+img {
+    width:  300px;
+    height: 200px;
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    margin-right: 5px;
+}
+.image1 {
+width: 600px;
+height: 400px;
+}
+.heading-block {
+    background-color:  #4F92DE;
+    width:  100%;
+    height: 150px;
+    border: rounded;
+}
+nav {
+  justify-content: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 900px;
+    overflow: hidden;
+}
+nav li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+p {
+    margin-bottom: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.leftside {
+float: none;
+padding 22px;
+width: 25%
+}
+.rightside {
+    float: none;
+    width: 60%;
+    padding: 22px;
+    margin-left: 400px;
+}
+.container {
+margin-left: 350px;
+display: flex;
+flex-wrap: wrap;
+flex: auto;
+text-align: center;
+}
+.row {
+    text-align: center;
+    height: 500px;
+    margin-left: 200px;
+    position: relative;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+a: hover {
+    background-color: white;
+}
+footer {
+    height: 100px;
+    display: flex;
+    padding-top: 10px;
+    margin-right: 20px;
+    background-color: #4F92DE;
+}
+.footerLinks ul {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 900px;
+    overflow: hidden;
+}
+.footerLinks li {
+    text-align: center;
+    margin-bottom: 5px;
+    ;
+}
+@media screen and (min-width: 768px){
+    .project-column {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+.project-column:last-child {
+    flex-grow: 1;
+
+}
+@media screen and (min-width:992px){
+    header {
+        width: 25%;
+    }
+
+    .project-column {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+
+
