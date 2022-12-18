@@ -13,4 +13,4 @@ None
 ## CONTACT ME
 Contact me at suecmorin@gmail.com.
 
-! [Screenshot] (./images/AboutMescreenshot.png)
+! [Screenshot] (https://github.com/suecmorin/AboutMe/blob/main/images/AboutMescreenshot.png)
